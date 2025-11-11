@@ -1,0 +1,100 @@
+/* ================================
+   Travel Packages Section Styles
+================================= */
+
+.packages-section {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.packages-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.packages-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Package Card */
+.package-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.package-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Package Heading */
+.package-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  color: #0077b6;
+}
+
+/* Price */
+.package-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #28a745;
+}
+
+/* Description */
+.package-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Features List */
+.package-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.package-card ul li {
+  padding: 6px 0;
+  color: #444;
+  font-size: 0.95rem;
+  position: relative;
+  padding-left: 20px;
+}
+
+.package-card ul li::before {
+  content: "✔";
+  color: #28a745;
+  position: absolute;
+  left: 0;
+  font-size: 0.9rem;
+}
+
+/* Button */
+.select-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #0077b6;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.select-btn:hover {
+  background: #005f87;
+  transform: scale(1.05);
+}

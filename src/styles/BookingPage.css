@@ -1,0 +1,34 @@
+/* ===== Booking Page Layout ===== */
+/* .booking-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background: #f9fafc;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* ===== Hero Section ===== */
+.hero-anil {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  border-radius: 12px;
+  width: 100%;
+  
+  /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); */
+}
+
+.hero-anil h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.hero-anil p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}

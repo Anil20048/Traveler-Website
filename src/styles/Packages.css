@@ -1,0 +1,336 @@
+.packages-hero {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* adjust as needed */
+  background: url("https://media.istockphoto.com/id/1465510231/photo/shot-of-a-white-airplane-flying-over-a-tropical-sea-with-a-sandy-beach-on-a-sunny-day.jpg?s=612x612&w=0&k=20&c=mAdEFTHkYmbmWjYHDMoOKEUPbGM1R7qkwjRaM4TcIHU=") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.packages-hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.packages-hero-content {
+  color: #fff;
+  max-width: 800px;
+}
+
+.packages-hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.packages-hero-tagline {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.package-categories {
+  background: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.package-categories-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 3rem;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.category-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.category-icon {
+  font-size: 2.5rem;
+  color: #ff5a5f;
+  margin-bottom: 1rem;
+}
+
+.category-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #222;
+}
+
+.category-desc {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+/* ============================
+   Package Section
+============================ */
+.package-section {
+  padding: 80px 20px;
+  background: #f9fafb;
+}
+
+.package-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.package-section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 50px;
+}
+
+/* ============================
+   Package Grid
+============================ */
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* ============================
+   Package Card
+============================ */
+.package-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.package-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================
+   Package Image
+============================ */
+.package-card-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.package-card:hover .package-card-image img {
+  transform: scale(1.05);
+}
+
+/* ============================
+   Package Content
+============================ */
+.package-card-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.package-card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.package-card-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.package-card-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.package-card-price {
+  font-weight: bold;
+  color: #e63946;
+}
+
+.package-card-duration {
+  font-style: italic;
+  color: #444;
+}
+
+/* ============================
+   Button
+============================ */
+.package-card-btn {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  align-self: flex-start;
+}
+
+.package-card-btn:hover {
+  background: #1e40af;
+}
+/* =========================== */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  width: 80%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 10px;
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px; right: 15px;
+  background: red; color: white;
+  border: none; padding: 5px 10px;
+  cursor: pointer; font-size: 16px;
+  border-radius: 5px;
+}
+
+.modal-title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.modal-section {
+  margin: 20px 0;
+}
+
+.modal-photos {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.modal-photos img {
+  width: 120px;
+  border-radius: 6px;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.95);}
+  to {opacity: 1; transform: scale(1);}
+}
+/* Split CTA Banner */
+.cta-banner-split {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 10px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  margin-top: 2px;
+}
+
+.cta-image {
+  flex: 1;
+}
+
+.cta-image img {
+  width: 90%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.cta-content {
+  flex: 1;
+  color: #333;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cta-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.cta-btn {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #e63946;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .cta-banner-split {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-content {
+    margin-top: 20px;
+  }
+}

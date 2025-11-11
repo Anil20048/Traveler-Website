@@ -1,0 +1,296 @@
+/* Hero Section */
+.gallery-hero {
+  height: 300px;
+  background: url("https://media.istockphoto.com/id/924233884/photo/wallowa-lake-oregon-fire-pit-senior-woman-enjoying-lake-mountains.jpg?s=612x612&w=0&k=20&c=i4Da-wcejBDVMVb-k8ZW-PIY3G8fSpYnzSWgwTz-Eu4=") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+}
+.gallery-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.gallery-subtitle {
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+/* Gallery Section */
+.gallery-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.gallery-filters {
+  margin: 20px 0;
+}
+.filter-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.filter-btn.active {
+  background: #007bff;
+  color: white;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Video Highlights */
+.video-highlights {
+  padding: 60px 20px;
+  background: #fafafa;
+  text-align: center;
+}
+.video-carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.video-item iframe {
+  border-radius: 10px;
+}
+
+/* Event Posters */
+.event-posters {
+  padding: 60px 20px;
+  text-align: center;
+}
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.poster-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.poster-card:hover {
+  transform: scale(1.05);
+}
+.poster-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.poster-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/* Special Performances */
+.special-performances {
+  padding: 50px 20px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.special-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.special-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.special-item:hover {
+  transform: scale(1.05);
+}
+
+.special-item img,
+.special-item video {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.special-item p {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #fff;
+}
+/* Awards Showcase */
+.awards-showcase {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.award-item {
+  background: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.award-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.award-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.award-item p {
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #fff;
+}
+/* Theme Nights / Seasonal Tours */
+.theme-nights {
+  padding: 60px 20px;
+  background: #fefefe;
+  text-align: center;
+}
+
+.theme-gallery {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.theme-group {
+  text-align: left;
+}
+
+.theme-heading {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.theme-grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.theme-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+/* CTA Banner */
+.cta-banner {
+  background: #fff;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.cta-image {
+  flex: 1;
+}
+
+.cta-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.cta-content {
+  flex: 1;
+  text-align: left;
+}
+
+.cta-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.cta-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.cta-btn {
+  background: #ff5722;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #e64a19;
+}

@@ -1,0 +1,191 @@
+/* ---------- HERO SECTION (same as before) ---------- */
+.contact-hero {
+  background: url("https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=60")
+    center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 78%;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero-overlay p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #f1f1f1;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero-overlay {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 2rem;
+  }
+
+  .hero-overlay p {
+    font-size: 1rem;
+  }
+}
+
+/* ---------- CONTACT CARDS (modern design) ---------- */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f9fa, #eef2f3);
+}
+
+.contact-card.fancy {
+  background: #fff;
+  width: 300px;
+  border-radius: 20px;
+  padding: 35px 25px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.contact-card.fancy::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  left: -40%;
+  width: 180%;
+  height: 180%;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
+}
+
+.contact-card.fancy:hover::before {
+  opacity: 0.15;
+}
+
+.contact-card.fancy:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.icon-box {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+  transition: all 0.4s ease;
+  z-index: 1;
+  position: relative;
+}
+
+.contact-card.fancy:hover .icon-box {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.6);
+}
+
+.contact-card.fancy h3 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #111;
+}
+
+.contact-card.fancy p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ---------- CONTACT FORM + MAP (same as before) ---------- */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 30px;
+  background: #fff;
+}
+
+.contact-form,
+.contact-map {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-map iframe {
+    min-height: 300px;
+  }
+}
