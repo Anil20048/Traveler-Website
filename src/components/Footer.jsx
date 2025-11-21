@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-links">
           <a href="/about">About Us</a>
           <a href="/contact">Contact</a>
-          <a href="/privacy">Privacy Policy</a>
+          <a href="/PrivacyPage">Privacy Policy</a>
         </div>
         <div className="footer-socials">
           <a href="#"><i className="fab fa-facebook-f"></i></a>

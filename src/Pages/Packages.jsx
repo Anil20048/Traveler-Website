@@ -243,7 +243,7 @@ const PackagesHero = () => {
   <div className="cta-content">
     <h2 className="cta-title">Ready for your dream vacation?</h2>
     <p className="cta-subtitle">
-      Book your package today and make unforgettable memories.
+Pack your bags and get ready to explore breathtaking destinations filled with beauty, adventure, and unforgettable memories. Whether it’s relaxing on golden beaches, hiking through misty mountains, or discovering vibrant cultures, your dream getaway awaits. Escape the routine, embrace the excitement, and let every moment of your journey bring you pure joy and inspiration.
     </p>
     <a href="/booking" className="cta-btn">Book Now</a>
   </div>

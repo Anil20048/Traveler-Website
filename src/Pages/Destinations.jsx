@@ -252,8 +252,7 @@ const Destinations = () => {
     <div className="destination-info-content">
       <h2 className="destination-info-title">Explore the Beauty of Bali</h2>
       <p className="destination-info-text">
-        Discover the stunning beaches, vibrant culture, and breathtaking landscapes of Bali. 
-        A perfect getaway for adventure and relaxation, Bali offers something special for every traveler.
+        Discover the enchanting island of Bali, where serene beaches meet lush green rice terraces and ancient temples whisper stories of the past. From the vibrant streets of Ubud to the tranquil shores of Nusa Dua, every corner invites peace, adventure, and inspiration. Experience Bali’s culture, flavors, and natural charm like never before.
       </p>
       <button className="destination-info-btn">Book Now</button>
     </div>

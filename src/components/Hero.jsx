@@ -50,18 +50,18 @@ const Hero = () => {
           <div className="home-card-row">
             <div className="home-card-item">
               <img src="https://images.unsplash.com/photo-1638785018577-ae89861271f9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIxfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600" alt="Card 1" className="home-card-img" />
-              <h3 className="home-card-title">Card Title 1</h3>
-              <p className="home-card-desc">Card description goes here.</p>
+              <h3 className="home-card-title">Goa Beach Escape</h3>
+              <p className="home-card-desc">Relax on golden beaches, enjoy vibrant nightlife, and savor delicious seafood. From water sports to sunset cruises, Goa offers the perfect mix of fun, relaxation, and tropical charm for every traveler.</p>
             </div>
             <div className="home-card-item">
               <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Card 2" className="home-card-img" />
-              <h3 className="home-card-title">Card Title 2</h3>
-              <p className="home-card-desc">Card description goes here.</p>
+              <h3 className="home-card-title">Manali Mountain Retreat</h3>
+              <p className="home-card-desc">Experience the serene beauty of snow-capped peaks, lush valleys, and pine forests. Enjoy adventure sports, cozy stays, and peaceful moments in this charming Himalayan paradise perfect for nature and thrill seekers.</p>
             </div>
             <div className="home-card-item">
               <img src="https://images.unsplash.com/photo-1662119430458-90375db4df40?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600" alt="Card 3" className="home-card-img" />
-              <h3 className="home-card-title">Card Title 3</h3>
-              <p className="home-card-desc">Card description goes here.</p>
+              <h3 className="home-card-title">Jaipur Royal Heritage Tour</h3>
+              <p className="home-card-desc">Explore the Pink City’s majestic forts, palaces, and vibrant bazaars. Visit Amber Fort, City Palace, and Hawa Mahal while experiencing Rajasthan’s royal culture, colorful traditions, and rich architectural splendor.</p>
             </div>
           </div>
 
@@ -69,18 +69,18 @@ const Hero = () => {
           <div className="home-card-row">
             <div className="home-card-item">
               <img src="https://images.unsplash.com/photo-1745685088912-85233c4f16ac?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600" alt="Card 4" className="home-card-img" />
-              <h3 className="home-card-title">Card Title 4</h3>
-              <p className="home-card-desc">Card description goes here.</p>
+              <h3 className="home-card-title">Kerala Backwater Cruise</h3>
+              <p className="home-card-desc">Sail through Kerala’s tranquil backwaters surrounded by lush greenery and coconut palms. Enjoy a peaceful houseboat stay, traditional cuisine, and the serene charm of Alleppey’s scenic canals and lagoons.</p>
             </div>
             <div className="home-card-item">
               <img src="https://plus.unsplash.com/premium_photo-1755018427741-2b3e47f204f3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600" alt="Card 5" className="home-card-img" />
-              <h3 className="home-card-title">Card Title 5</h3>
-              <p className="home-card-desc">Card description goes here.</p>
+              <h3 className="home-card-title">Ladakh Adventure Expedition</h3>
+              <p className="home-card-desc">Embark on a thrilling journey through Ladakh’s majestic mountains, serene monasteries, and high-altitude lakes. Experience biking on rugged terrains, camping under starry skies, and exploring the breathtaking beauty of the Himalayas.</p>
             </div>
             <div className="home-card-item">
               <img src="https://plus.unsplash.com/premium_photo-1663051113145-f27b3b73d202?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600" alt="Card 6" className="home-card-img" />
-              <h3 className="home-card-title">Card Title 6</h3>
-              <p className="home-card-desc">Card description goes here.</p>
+              <h3 className="home-card-title">Andaman Island Getaway</h3>
+              <p className="home-card-desc">Experience the tropical paradise of Andaman with crystal-clear waters, white sandy beaches, and coral reefs. Enjoy scuba diving, island hopping, underwater adventures, and relax amid breathtaking natural beauty.</p>
             </div>
           </div>
         </div>
@@ -91,9 +91,9 @@ const Hero = () => {
           <img src={close} alt="About" className="image-content-img" />
         </div>
         <div className="image-content-right">
-          <h2 className="image-content-title">Discover New Destinations</h2>
+          <h2 className="image-content-title">Experience the Beauty of Travel</h2>
           <p className="image-content-text">
-            Embark on unforgettable adventures and explore the beauty of the world with us. Our travel experiences are designed to inspire, relax, and rejuvenate.
+            Step into a world of breathtaking landscapes, diverse cultures, and unforgettable adventures. From serene beaches to majestic mountains, every journey offers something extraordinary. Discover hidden gems, savor local flavors, and create lasting memories with every destination you explore. Travel not just to see the world — but to truly experience its beauty, heart, and spirit.
           </p>
           <a href="/about" className="image-content-button">Learn More</a>
         </div>
@@ -102,10 +102,9 @@ const Hero = () => {
    <section className="video-section">
   <div className="video-container">
     <div className="video-text">
-      <h2>Experience the Journey</h2>
+      <h2>Embrace the Adventure</h2>
       <p>
-        Watch breathtaking travel adventures and get inspired for your next trip.
-        Discover the beauty of the world from the comfort of your screen.
+       Set out to explore the world’s wonders, where every road leads to a new story. Discover hidden gems, connect with diverse cultures, and create memories that last a lifetime. Traveling isn’t just about reaching places — it’s about feeling alive, learning, and embracing the beauty of the unknown.
       </p>
     </div>
     <div className="video-embed">
@@ -148,8 +147,7 @@ const Hero = () => {
     <div className="home-content-box">
       <h2>Experience the Journey</h2>
       <p>
-        Watch breathtaking travel adventures and get inspired for your next trip.
-        Discover the beauty of the world from the comfort of your screen.
+       Embark on a path filled with adventure, discovery, and inspiration. Every journey tells a story — of places explored, people met, and memories created. Travel beyond destinations to experience cultures, nature, and emotions that shape who we are. Let every step remind you that the journey itself is the true reward.
       </p>
     </div>
   </div>

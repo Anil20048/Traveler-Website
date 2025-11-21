@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AppRoutes from "./routes/AppRoutes";
 import Footer from "./components/Footer";
-import "./App.css"; // ✅ make sure file exists in src/styles/
+import "./App.css"; 
 
 const App = () => {
   return (

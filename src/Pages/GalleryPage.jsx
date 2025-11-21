@@ -274,7 +274,7 @@ const GalleryPage = () => {
     {/* Right Content */}
     <div className="cta-content">
       <h2>Want to be part of our next journey?</h2>
-      <p>Book your spot today and create unforgettable memories with us.</p>
+      <p>Join us as we explore the world’s most mesmerizing destinations and uncover hidden gems that inspire wonder and adventure. Whether you’re a solo traveler, a couple seeking romance, or a group chasing thrill and discovery, there’s a place waiting just for you. Let’s create stories together, capture unforgettable memories, and turn your travel dreams into beautiful realities. Your next adventure begins now!</p>
       <a href="/booking" className="cta-btn">Book Now</a>
     </div>
   </div>
