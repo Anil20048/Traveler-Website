@@ -241,7 +241,7 @@ const PackagesHero = () => {
     <img src="https://media.istockphoto.com/id/639805332/photo/friends-camping-eating-food-concept.jpg?s=612x612&w=0&k=20&c=pWSi6VTqoAIFO8XMyOEeqFLNt5Fx-EaYz0bDndhaUHU=" alt="Dream Vacation" />
   </div>
   <div className="cta-content">
-    <h2 className="cta-title">Ready for your dream vacation?</h2>
+    <h2 className="cta-title">Ready for your dream vacation.</h2>
     <p className="cta-subtitle">
 Pack your bags and get ready to explore breathtaking destinations filled with beauty, adventure, and unforgettable memories. Whether it’s relaxing on golden beaches, hiking through misty mountains, or discovering vibrant cultures, your dream getaway awaits. Escape the routine, embrace the excitement, and let every moment of your journey bring you pure joy and inspiration.
     </p>
