@@ -17,7 +17,7 @@ const About = () => {
       <section className="about-hero">
         <div className="overlay">
           <h1>About Our Blog</h1>
-          <p>We’re passionate storytellers sharing insights, travel tales, and tech guides with readers worldwide.</p>
+          <p>Our blog shares practical insights, helpful guides, and real stories to inspire learning and growth. We cover technology, business, lifestyle, and creative ideas that matter today.</p>
         </div>
       </section>
 
@@ -27,8 +27,7 @@ const About = () => {
     <div className="story-text">
       <h2>Our Story</h2>
       <p>
-        Founded in 2024, our blog began with a simple goal — to create a space for meaningful stories that inspire and inform. 
-        We believe in blending creativity with technology to connect with people everywhere.
+       Founded in 2024, our blog started with a clear vision — to share meaningful stories that educate, inspire, and connect people. We focus on blending creativity, knowledge, and technology to present ideas that truly matter. Whether it’s insights, guides, or real experiences, our mission is to deliver content that encourages learning, sparks curiosity, and adds value to everyday life.
       </p>
     </div>
     <img
