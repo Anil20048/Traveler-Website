@@ -118,9 +118,9 @@ const Destinations = () => {
       {/* Hero Section */}
       <section className="destinations-hero">
         <div className="destinations-overlay">
-          <h1 className="destinations-title">Top Travel Destinations</h1>
+          <h1 className="destinations-title"> Travel Destinations</h1>
           <p className="destinations-subtitle">
-            Discover the most popular places to visit around the world
+           Discover breathtaking travel destinations worldwide, explore hidden gems, enjoy unforgettable adventures, experience diverse cultures, create memories, and make every journey truly special.
           </p>
         </div>
       </section>

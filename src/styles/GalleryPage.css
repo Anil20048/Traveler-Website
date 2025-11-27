@@ -1,6 +1,6 @@
 /* Hero Section */
 .gallery-hero {
-  height: 300px;
+  /* height: 300px; */
   background: url("https://media.istockphoto.com/id/924233884/photo/wallowa-lake-oregon-fire-pit-senior-woman-enjoying-lake-mountains.jpg?s=612x612&w=0&k=20&c=i4Da-wcejBDVMVb-k8ZW-PIY3G8fSpYnzSWgwTz-Eu4=") center/cover no-repeat;
   position: relative;
   display: flex;
@@ -20,12 +20,12 @@
 }
 .gallery-subtitle {
   font-size: 1.2rem;
-  color: #ddd;
+  color: #ffffff;
 }
 
 /* Gallery Section */
 .gallery-section {
-  padding: 60px 20px;
+  padding: 10px 20px;
   text-align: center;
 }
 .gallery-filters {
@@ -62,7 +62,7 @@
 
 /* Video Highlights */
 .video-highlights {
-  padding: 60px 20px;
+  padding: 20px 20px;
   background: #fafafa;
   text-align: center;
 }
@@ -78,7 +78,7 @@
 
 /* Event Posters */
 .event-posters {
-  padding: 60px 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 .poster-grid {
@@ -114,7 +114,7 @@
 }
 /* Special Performances */
 .special-performances {
-  padding: 50px 20px;
+  padding: 20px 20px;
   background: #fafafa;
   text-align: center;
 }
@@ -154,7 +154,7 @@
 }
 /* Awards Showcase */
 .awards-showcase {
-  padding: 50px 20px;
+  padding: 20px 20px;
   background: #fff;
   text-align: center;
 }
@@ -194,7 +194,7 @@
 }
 /* Theme Nights / Seasonal Tours */
 .theme-nights {
-  padding: 60px 20px;
+  padding: 20px 20px;
   background: #fefefe;
   text-align: center;
 }
@@ -238,7 +238,7 @@
 /* CTA Banner */
 .cta-banner {
   background: #fff;
-  padding: 60px 20px;
+  padding: 20px 20px;
   display: flex;
   justify-content: center;
 }

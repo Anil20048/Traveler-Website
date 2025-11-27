@@ -48,9 +48,9 @@ const GalleryPage = () => {
       <div className="gallery-page">
         <section className="gallery-hero">
           <div className="gallery-hero-overlay">
-            <h1 className="gallery-title">Travel Gallery</h1>
+            <h1 className="gallery-title">Travel Memories</h1>
             <p className="gallery-subtitle">
-              Explore breathtaking journeys & unforgettable memories
+             Travel memories remind us of breathtaking destinations, unforgettable moments, meaningful connections, thrilling adventures, beautiful cultures, joyful experiences, and precious stories that stay in our hearts long after the journey ends.
             </p>
           </div>
         </section>

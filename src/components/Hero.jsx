@@ -36,8 +36,8 @@ const Hero = () => {
       <section className="hero">
         <div className="hero-overlay">
           <div className="hero-content">
-            <h1 className="hero-title">Explore the World with Us</h1>
-            <p className="hero-subtitle">Discover unforgettable journeys and lifetime memories.</p>
+            <h1 className="hero-title">Travel Together, Smile Together</h1>
+            <p className="hero-subtitle">Travel Together, Smile Together — because every destination becomes more meaningful when shared with the ones we love. Discover breathtaking places, create beautiful memories, enjoy unforgettable adventures, and celebrate the joy of exploring the world hand in hand..</p>
             <a href="/packages" className="hero-button">Explore Now</a>
           </div>
         </div>

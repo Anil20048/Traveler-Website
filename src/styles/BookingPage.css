@@ -12,14 +12,12 @@
 /* ===== Hero Section ===== */
 .hero-anil {
   text-align: center;
-  margin-bottom: 40px;
-  padding: 60px 20px;
+  padding: 60px 40px;
   background: linear-gradient(135deg, #4facfe, #00f2fe);
   color: white;
-  border-radius: 12px;
+  background: url('https://plus.unsplash.com/premium_photo-1700486009227-4b194079c197?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RGVzdGluYXRpb25IZXJvJTIwYmFja2dyaXVuZCUyMGltYWdlfGVufDB8fDB8fHww') center/cover no-repeat;
   width: 100%;
-  
-  /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); */
+ 
 }
 
 .hero-anil h1 {
@@ -31,4 +29,5 @@
 .hero-anil p {
   font-size: 1.2rem;
   opacity: 0.95;
+  padding: 0PX 40PX;
 }

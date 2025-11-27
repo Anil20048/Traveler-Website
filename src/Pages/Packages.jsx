@@ -178,7 +178,7 @@ const PackagesHero = () => {
           <div className="packages-hero-content">
             <h1 className="packages-hero-title">Our Travel Packages</h1>
             <p className="packages-hero-tagline">
-              Explore the world with our carefully crafted travel packages designed just for you.
+              Our travel packages offer unforgettable experiences, stunning destinations, comfortable stays, guided adventures, seamless planning, and affordable pricing — designed to make every journey memorable, exciting, and completely hassle-free for travelers of all ages.
             </p>
           </div>
         </div>

@@ -10,8 +10,8 @@ const BookingPage = () => {
   return (
     <div className="booking-page">
       <section className="hero-anil">
-        <h1>Hero → Package Selection</h1>
-        <p>Book your next adventure with us!</p>
+        <h1>Book Your Next Adventure With Us</h1>
+        <p>Book your next adventure with us and discover breathtaking destinations, unforgettable experiences, comfortable stays, exciting activities, seamless planning, and stress-free travel designed to make every journey memorable and truly extraordinary for you.</p>
       </section>
 
       <TravelPackages onSelectPlan={setSelectedPlan} />
